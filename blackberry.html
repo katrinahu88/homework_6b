@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <link href="style.css" type="text/css" rel="stylesheet">
+  
+  <!-- Navigation Bar -->
+  <div class="navigation">
+      <a href="./index.html"><img src="images/logo.jpg" alt="Bun Bun Bake Shop Logo"/></a>
+      </br>
+      </br>
+      </br>
+      </br>
+      <a href="./index.html">Home</a>
+      <a href="./menu.html">Menu</a>
+      <a id="itemCount" href="./cart.html">Cart (0)</a>
+      <a href="#">Contact</a>
+      <a href="#">About</a>
+  </div>
+
+  <div class="back">
+    <a href="./menu.html"><div class="btn">Back</div></a>
+  </div>
+
+	<!-- Product Image -->
+
+	<div class="flex-container">
+		<section class="itemImage">
+			<img src="images/Blackberry.jpg" alt="Original Cinnamon Roll" width="450"/>
+		</section>
+
+	<!-- Product Name and Description -->
+		<section class="itemDescription">
+			<h1>Blackberry Cinnamon Roll</h1>
+			<p>$3.99/each</p>
+			<p>One of our most popular flavors, made with fresh blackberries for a fruity and fresh taste. Made with our high-quality cinnamon combined with our fluffy dough and signature frosting.</p>
+
+	<!-- product order form: choosing glaze and quantity -->
+			</br>
+	        	<select name="glaze" id="glaze">
+	        		<option value="glaze">GLAZE</option>
+		            <option value="none">NONE</option>
+		            <option value="sugar milk">SUGAR MILK</option>
+		            <option value="vanilla milk">VANILLA MILK</option>
+		            <option value="double chocolate">DOUBLE CHOCOLATE</option>
+	    		</select>
+	    	</br>
+            	<select name="quantity" id="quantity">
+            		<option value="quantity">QUANTITY</option>
+	            	<option value="1">1</option>
+	            	<option value="3">3</option>
+	            	<option value="6">6</option>
+	            	<option value="12">12</option>
+        		</select>
+        	</br>
+        		<input type="submit" value="Add to Cart  •  $3.99" class="button">
+        	</section>
+	</div>
+
+</html>
